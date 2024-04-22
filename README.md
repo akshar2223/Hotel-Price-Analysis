@@ -1,28 +1,40 @@
-Hotel Price Analysis using Java
-This project utilizes Java for conducting hotel price analysis by scraping data from three popular websites: Airbnb, Expedia, and Booking.com. The analysis includes various features and techniques such as web crawling, data validation using regular expressions, HTML parsing, inverted indexing, frequency count, page ranking, spell checking, word completion, search frequency tracking, and finding patterns using regular expressions.
+# Hotel Price Analysis:
+This project aims to perform hotel price analysis by crawling data from three popular websites - Airbnb, Expedia, and Booking.com. The project utilizes various techniques including web crawling, data validation using regular expressions, HTML parsing, inverted indexing, frequency count, page ranking, spell checking, word completion, search frequency, and finding patterns using regular expressions.
 
-Features
-1. Web Crawler
-Utilizes web crawling techniques to extract hotel price data from Airbnb, Expedia, and Booking.com.
-2. Data Validation using Regular Expressions
-Validates and filters extracted data using regular expressions to ensure accuracy and consistency.
-3. HTML Parser
-Parses HTML content from the web pages to extract relevant information such as hotel prices and details.
-4. Inverted Indexing
-Implements inverted indexing to efficiently perform quick searches without scanning all the documents.
-5. Frequency Count
-Provides users with the number of occurrences of a word in a specific URL, aiding in understanding popularity or relevance.
-6. Page Ranking
-Ranks search results based on the frequency of keyword occurrences, utilizing sorting, heaps, or other data structures.
-7. Spell Checking
-Implements spell checking by constructing a vocabulary from existing words in text files and suggesting alternative word options.
-8. Word Completion
-Provides word completion suggestions based on existing words in the vocabulary.
-9. Search Frequency
-Tracks and displays the frequency of searched words, helping users understand popular search terms.
-10. Finding Patterns using Regular Expressions
-Enables users to find specific patterns within the data using regular expressions.
-Usage
+## Features
+### Web Crawler
+The project includes a web crawler module that retrieves hotel price data from Airbnb, Expedia, and Booking.com websites.
+
+### Data Validation using Regular Expressions
+Regular expressions are used to validate and extract relevant information from the crawled data.
+
+### HTML Parser
+An HTML parser is employed to parse the HTML content retrieved from the websites.
+
+### Inverted Indexing
+Inverted indexing is utilized to enable quick searches without the need to go through all the files. It stores a mapping from content (words or numbers) to their locations in a set of documents.
+
+### Frequency Count
+The project provides functionality to count the frequency of words in a specific URL, allowing users to see the number of occurrences of a word.
+
+### Page Ranking
+Page ranking is implemented to measure the importance of search results based on the number of occurrences. Web pages with repeated search keywords are ranked higher. Various data structures such as sorting and heaps are used for ranking web pages.
+
+### Spell Checking
+The project includes a spell checking feature that constructs a vocabulary based on all existing words in text files. It suggests alternative word suggestions if no results are found, using the edit distance algorithm to compare the user's input with existing words from source files.
+
+### Word Completion
+Word completion functionality suggests completed words based on user input.
+
+### Search Frequency
+The project tracks and displays the word that has been searched before, along with the number of times the word has been searched.
+
+### Finding Patterns using Regular Expressions
+Regular expressions are employed to find specific patterns within the crawled data.
+
+## Usage
 Compile and Run: Compile the Java files and run the main program to initiate the hotel price analysis.
+
 Provide Input: Input the desired search parameters such as location, dates, and other relevant criteria.
+
 View Results: Access the analyzed hotel price data along with additional features such as frequency count, page ranking, and spell checking.
