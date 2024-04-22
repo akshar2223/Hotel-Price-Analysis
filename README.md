@@ -1,5 +1,5 @@
 # Hotel Price Analysis:
-This project aims to perform hotel price analysis by crawling data from three popular websites - Airbnb, Expedia, and Booking.com. The project utilizes various techniques including web crawling, data validation using regular expressions, HTML parsing, inverted indexing, frequency count, page ranking, spell checking, word completion, search frequency, and finding patterns using regular expressions.
+This project aims to perform hotel price analysis by crawling data from three popular websites - Airbnb, Expedia, Hotels.com and Booking.com. The project utilizes various techniques including web crawling, data validation using regular expressions, HTML parsing, inverted indexing, frequency count, page ranking, spell checking, word completion, search frequency, and finding patterns using regular expressions.
 
 ## Features
 ### Web Crawler
