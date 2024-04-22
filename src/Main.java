@@ -21,8 +21,8 @@ public class Main {
         HotelsCrawler hc = new HotelsCrawler();
         SpellCheck spellChecker = new SpellCheck();
         Wordcompletion wordcompletion = new Wordcompletion();
-        spellChecker.loadDictionary("src\\Validation\\dictionary.csv");
-        wordcompletion.processFile("src\\Validation\\dictionary.csv");
+        spellChecker.loadDictionary("src\\dictionary.csv");
+        wordcompletion.processFile("src\\dictionary.csv");
         Scanner s = new Scanner(System.in);
         LocalDate currentDate = LocalDate.now();
 
